@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.timerCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: aliceblue;
+  font-size: 2rem;
+  cursor: pointer;
+  flex-wrap: nowrap;
+}
