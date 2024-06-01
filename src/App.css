@@ -41,9 +41,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 6rem;
   color: aliceblue;
   font-size: 2rem;
   cursor: pointer;
   flex-wrap: nowrap;
+}
+
+@media screen  and (max-width: 768px) {
+  .timerCard{
+    flex-direction: column;
+    gap: 0;
+
+  }
 }
